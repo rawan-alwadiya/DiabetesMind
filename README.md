@@ -11,7 +11,7 @@ DiabetesMind is a machine learning project designed to predict diabetes risk usi
 
 ## Technologies Used
 - *Machine Learning:* Logistic Regression, SVM, Random Forest, Gradient Boosting  
-- *Data Processing:* Pandas, NumPy, Winsorization, Feature Engineering  
+- *Data Processing:* Pandas, NumPy, Winsorization, Feature Engineering   
 - *Model Optimization:* GridSearchCV, RandomizedSearchCV, Hyperparameter Tuning  
 - *Data Balancing:* Random Over-Sampling (ROS)  
 - *Visualization:* Matplotlib, Seaborn, Heatmaps, Boxplots  
