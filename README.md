@@ -60,7 +60,6 @@ DiabetesMind is an AI-powered system designed to predict diabetes diagnoses usin
 
 - **Machine Learning Models**: Random Forest, XGBoost, LightGBM, CatBoost, HistGradientBoosting
 - **Preprocessing & Feature Engineering**: Pandas, NumPy, SciKit-Learn
-- **Outlier & Missing Value Handling**: Domain-based thresholding, NaN strategies
 - **Evaluation Metrics**: F1 Score, Recall, Accuracy, Precision, Confusion Matrix
 - **Visualization**: Matplotlib, Seaborn
 
