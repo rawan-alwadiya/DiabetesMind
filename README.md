@@ -14,12 +14,12 @@ DiabetesMind is an AI-powered system designed to predict diabetes diagnoses usin
 
 ## Key Features
 
-### 1. Binary Classification Model
+### Binary Classification Model
 - Predicts whether a patient is diabetic or not based on health indicators.
 - Achieved **F1 Score** of **87.2%** and **Recall** of **92.9%**.
 - Demonstrates strong sensitivity to diabetic cases.
 
-### 2. Robust Preprocessing Pipeline
+### Preprocessing & Feature Engineering
 - **Missing Value Treatment**:
   - Treated medically implausible values (e.g., 0 Glucose or BMI) as missing.
   - Dropped rows with 3+ missing critical values to retain data quality.
@@ -34,7 +34,6 @@ DiabetesMind is an AI-powered system designed to predict diabetes diagnoses usin
   - Applied **oversampling** on minority class (diabetic patients).
   - Enhanced model's ability to generalize without introducing synthetic noise.
 
-### 3. Feature Engineering & Transformation
 - **Feature Construction**:
   - Developed new features by combining existing attributes through **ratios and interactions** (e.g., Glucose_BMI) to capture complex patterns.
   - These engineered features helped improve model performance by extracting richer information from the dataset.
